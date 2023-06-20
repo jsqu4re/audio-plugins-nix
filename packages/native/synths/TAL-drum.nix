@@ -3,7 +3,7 @@ pkgs.stdenv.mkDerivation {
   name = "TAL-Drum";
   src = pkgs.fetchurl {
     url = "https://tal-software.com/downloads/plugins/TAL-Drum_64_linux.zip";
-    sha256 = "sha256-KxMHeGpwnhyGk0PigxeLH+5G51HkyghPqw+Wd0FiuL4=";
+    sha256 = "sha256-V+kvUqpzx/MMVrVQe+lT7R/XBg2s8lsqmcLa+JpVDGQ=";
   };
 
   passthru.demo = true;
